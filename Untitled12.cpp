@@ -1,0 +1,11 @@
+#include<iostream.h>
+main()
+{
+	for(i=0;i<100;i++)
+	cin>>A[i];
+	max=A[0];
+	for(i=1;i<100;i++)
+	if(A[i]>.max)
+	max=A[i];
+	cout<<max;
+}

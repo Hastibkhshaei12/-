@@ -1,0 +1,19 @@
+#include<iostream.h>
+main()
+{
+	int a,b,n,i,temp,sum;
+	cin>>a>>b;
+	if(a>b)
+	{
+		temp=a;
+		a=b;
+		b=temp;
+	}
+for(n=a+1;n<b;n++)
+sum=0;
+for(i=1;i<=n;i++)
+if(n%i==0)
+sum+=i;
+if(sum==2*n)
+cout<<n;
+}
